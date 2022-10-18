@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043961005212",
+    "project_id": "citizenship-education-grade-10",
+    "storage_bucket": "citizenship-education-grade-10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043961005212:android:9952894dd86c6d386dd959",
+        "android_client_info": {
+          "package_name": "com.beckytech.citizenshipeducationgrade10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043961005212-49j5ereu0epuulds1psqfculdelsh0qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Fe_YLNJ1HnbyZd4hhVQCZvyB0EeRRVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043961005212-49j5ereu0epuulds1psqfculdelsh0qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
