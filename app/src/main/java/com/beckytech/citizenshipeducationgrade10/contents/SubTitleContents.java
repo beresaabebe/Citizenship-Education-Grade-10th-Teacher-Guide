@@ -2,7 +2,6 @@ package com.beckytech.citizenshipeducationgrade10.contents;
 
 public class SubTitleContents {
     public String[] subTitle = {
-            "Intro",
             "Unit 1",
             "Unit 2",
             "Unit 3",

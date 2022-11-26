@@ -3,12 +3,11 @@ package com.beckytech.citizenshipeducationgrade10.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.beckytech.citizenshipeducationgrade10.R;
-import com.beckytech.citizenshipeducationgrade10.contents.ContentEndPage;
-import com.beckytech.citizenshipeducationgrade10.contents.ContentStartPage;
 import com.beckytech.citizenshipeducationgrade10.model.Model;
 import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.scroll.DefaultScrollHandle;
@@ -20,9 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookDetailActivity extends AppCompatActivity {
-
-    private final ContentStartPage startPage = new ContentStartPage();
-    private final ContentEndPage endPage = new ContentEndPage();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +62,9 @@ public class BookDetailActivity extends AppCompatActivity {
             array[j] = list.get(j);
         }
 
-        pdfView.fromAsset("ce10.pdf")
+        Toast.makeText(this, "Array "+array.length, Toast.LENGTH_SHORT).show();
+
+        pdfView.fromAsset("celatest.pdf")
                 .pages(array)
                 .enableSwipe(true)
                 .swipeHorizontal(false)
