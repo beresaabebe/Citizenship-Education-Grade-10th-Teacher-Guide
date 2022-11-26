@@ -40,6 +40,7 @@ import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.slider.Slider;
 import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
 import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
@@ -93,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements Adapter.onBookCli
         recyclerView.setAdapter(adapter);
 
 
-//      Slider one initialization
+        //Slider one initialization
         sliderViewOne = findViewById(R.id.imageSlider);
         sliderOneView();
 
