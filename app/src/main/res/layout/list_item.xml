@@ -37,7 +37,7 @@
                 android:textStyle="bold"
                 android:gravity="start"
                 android:singleLine="true"
-                android:ellipsize="marquee"
+                android:ellipsize="end"
                 android:fontFamily="serif"
                 android:textColor="@color/black"
                 android:textSize="18sp"

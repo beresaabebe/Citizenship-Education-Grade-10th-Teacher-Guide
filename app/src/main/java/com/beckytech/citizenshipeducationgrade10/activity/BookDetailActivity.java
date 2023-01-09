@@ -62,8 +62,6 @@ public class BookDetailActivity extends AppCompatActivity {
             array[j] = list.get(j);
         }
 
-        Toast.makeText(this, "Array "+array.length, Toast.LENGTH_SHORT).show();
-
         pdfView.fromAsset("celatest.pdf")
                 .pages(array)
                 .enableSwipe(true)

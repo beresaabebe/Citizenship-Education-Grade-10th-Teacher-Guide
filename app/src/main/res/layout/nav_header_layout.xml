@@ -35,6 +35,7 @@
         android:layout_below="@id/cardView"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:padding="10dp"
         android:gravity="center_horizontal"
         android:fontFamily="serif"
         android:text="@string/app_name"
